@@ -16,18 +16,19 @@ React, Styles Components, React Icons, Vite.js
 
 No terminal clone o projeto:
 
-`$ git clone https://github.com/Wendell47/Conversor-Binario.git`
+        `$ git clone https://github.com/Wendell47/Conversor-Binario.git`
 
 Acesse o arquivo do projeto:
 
-`$ cd Conversor-Binario`
+        `$ cd Conversor-Binario`
 
 Instale as dependências:
 
-`$ npm install`
+        `$ npm install`
 
 Inicie o servidor local:
-`$ npm run dev`
+
+        `$ npm run dev`
 
 
 --------------------------------
