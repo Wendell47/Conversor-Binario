@@ -5,7 +5,7 @@ export const Main = styled.div`
 max-width: 600px;
 height:100vh;
 margin-inline: auto;
-padding:3rem;
+padding:2rem;
 display: flex;
 
 flex-direction: column;
@@ -21,8 +21,8 @@ justify-content: center;
 
 export const Content = styled.div`
 
-border-radius: 4rem;
-padding: 4rem;
+border-radius: clamp(2rem, 3vw,4rem);
+padding: clamp(2rem, 3vw,4rem);
 background:var(--bg-dark-900);
 border:var(--border-dark);
 min-height: 500px;
@@ -31,27 +31,42 @@ box-shadow: var(--box-shadow);
 
 color:var(--color);
 text-align: center;
-h2{
-    font-size: 2rem;
-    font-weight:600;
-     margin-bottom:1.2rem;
-}
+
+
 >p{
-    font-size: 1.4rem;
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
     color:#bdbdbd;
     margin-bottom: 2rem;
 }
 
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    > h2{
+    font-size: clamp( 1.2rem, 12vw, 1.6rem);
+    font-weight:600;
+   margin-block: 2rem;
+}
+>svg{
+    font-size: clamp(1.2rem, 12vw, 1.4rem);
+    color:#bdbdbd;
+}
+}
 
 `
 export const ResultContent = styled.div`
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column;
-    min-height: 200px;
+   
+    max-height: 350px;
+    overflow-y: auto;
+    margin-top: 3rem;
     width: 100%;  
+    >h2{
+        color:#bdbdbd;
+    }
     > p{
         font-size: clamp(2rem, 12vw, 4.4rem);
         font-weight: 600;

@@ -33,7 +33,7 @@ function App() {
        <Logo/>
 
         <Content>
-          <h2> Decimal  <LuArrowLeftRight/> binário </h2>
+          <div className='title'><h2> Decimal </h2> <LuArrowLeftRight/> <h2>binário </h2></div>
           <p>Olá caro visitante, digite um número abaixo para efetuar a conversão:</p>
           <Input
           placeholder="exemplo: 1000"

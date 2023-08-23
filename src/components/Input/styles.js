@@ -2,7 +2,7 @@ import styled  from "styled-components";
 
 export const Content = styled.div`
 background: var(--bg-dark-800);
-border-radius: 3rem;
+border-radius: clamp(2rem, 3vw, 3rem);
 padding: 2rem;
 display:flex;
 align-items: center;
@@ -13,8 +13,8 @@ align-items: center;
     border: none;
     outline: none;
     width: 100%;
-    color:#bdbdbd;
-    font-size: 2rem;
+    color:var(--color-secondary);
+    font-size: clamp(1.5rem, 2vw,2rem);
     font-weight: 600;
     &::placeholder{
         color: #999;
@@ -25,7 +25,7 @@ align-items: center;
 }
 
 > button{
-    border-radius: 2rem;
+    border-radius: clamp(1.4rem, 3vw,2rem);
     background: #0088FF;
     border: none;
     color:white;
@@ -38,13 +38,13 @@ align-items: center;
     transition: 140ms ease-out;
 
     &:hover{
-        background: #0077EE;
+        background: #0088FF;
         box-shadow: 0px 8px 20px -2px #0088FF;
     }
 
     &:active{
         scale: 0.97;
-        opacity:0.7;
+        background: #00abff;
         
         //animation: rotate 140ms ease-in  forwards ;
     }
