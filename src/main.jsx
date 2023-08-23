@@ -7,6 +7,6 @@ import { inject } from '@vercel/analytics';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
 )
 inject();
