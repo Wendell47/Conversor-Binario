@@ -1,8 +1,35 @@
-# React + Vite
+# Conversor Binário
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Build Status](/public/Home.jpg)
 
-Currently, two official plugins are available:
+Um Simples e moderno conversor de números decimais para binário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`git clone https://github.com/`
+
+## Stack utilizada
+
+React, Styles Components, React Icons, Vite.js
+
+
+
+## Iniciando a aplicação:
+
+No terminal clone o projeto:
+
+`$ git clone https://github.com/Wendell47/Conversor-Binario.git`
+
+Acesse o arquivo do projeto:
+
+`$ cd Conversor-Binario`
+
+Instale as dependências:
+
+`$ npm install`
+
+Inicie o servidor local:
+`$ npm run dev`
+
+
+--------------------------------
+created by me ❤️😁.
+
