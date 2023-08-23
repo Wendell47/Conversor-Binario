@@ -1,4 +1,4 @@
-import Img from "../../assets/logo.svg"
+
 import {Content} from "./styles"
 import { LogoSite } from "../SocialIcon"
 export default function Logo(){

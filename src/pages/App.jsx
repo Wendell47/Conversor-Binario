@@ -9,16 +9,7 @@ function App() {
   const [value,setValue]=useState()
   const [result,setResult]=useState()
 
-  function handleSubmit(e){
-    e.preventDefault()
-    //let calc
-    parseInt(value)
-
-    setResult(value)
   
-    setValue('')
-  }
-
   function convertToBinary1 (e) {
     e.preventDefault()
 
