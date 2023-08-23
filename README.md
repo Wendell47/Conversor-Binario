@@ -4,7 +4,7 @@
 
 Um Simples e moderno conversor de números decimais para binário.
 
-`git clone https://github.com/`
+
 
 ## Stack utilizada
 
