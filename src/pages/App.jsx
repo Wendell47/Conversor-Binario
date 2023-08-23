@@ -27,8 +27,8 @@ function App() {
     console.log(binary);
 }
 
-  console.log(result)
-  console.log(parseInt(value))
+  //console.log(result)
+  //console.log(parseInt(value))
   return (
     <>
       <Main>

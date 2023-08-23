@@ -10,7 +10,7 @@ display: flex;
 
 flex-direction: column;
 
-gap: 5rem;
+gap: 4rem;
 align-items: center;
 justify-content: center;
 

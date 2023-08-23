@@ -14,10 +14,10 @@ export default function Footer(){
             <p> create by Wendel   - {getCurrentDate()} </p>
             <div>
                 <a href="https://www.linkedin.com/in/wendel-ara%C3%BAjo-731539248/" target="_blank" rel="noreferrer">
-                    <Github/>
+                    <Linkedin/>
                 </a>
                 <a href="https://github.com/Wendell47" target="_blank" rel="noreferrer">
-                    <Linkedin/>
+                    <Github/>
                 </a>
             </div>
         </Content>
