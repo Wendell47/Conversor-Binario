@@ -4,6 +4,8 @@ import Logo from '../components/Logo'
 import Input from '../components/Input'
 import Footer from '../components/footer'
 import { LuArrowLeftRight } from 'react-icons/lu'
+import { Analytics } from '@vercel/analytics/react';
+
 function App() {
 
   const [value,setValue]=useState()
@@ -60,7 +62,8 @@ function App() {
         <Footer/>
       </Main>
 
-      
+      <Analytics />
+
     </>
   )
 }
