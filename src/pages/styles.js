@@ -53,6 +53,7 @@ text-align: center;
 >svg{
     font-size: clamp(1.2rem, 12vw, 1.4rem);
     color:#bdbdbd;
+    
 }
 }
 
