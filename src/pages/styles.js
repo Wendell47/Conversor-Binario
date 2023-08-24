@@ -60,7 +60,7 @@ text-align: center;
 export const ResultContent = styled.div`
 
    
-    max-height: 350px;
+    max-height: 250px;
     overflow-y: auto;
     margin-top: 3rem;
     width: 100%;  
